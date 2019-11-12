@@ -4,9 +4,9 @@
   "description": "",
   "author": "Johan Westling",
   "license": "ISC",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
-    "start": "serve src"
+    "start": "serve"
   },
   "dependencies": {
     "serve": "^11.2.0"

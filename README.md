@@ -10,9 +10,11 @@ You are allowed to make adjustments to the layout if needed to support the minim
 
 ## File structure
 
-- **src/index.html** - The place for your HTML.
-- **src/style.css** - The place for your CSS.
-- **src/roundel.png** - The example image to use as the item image.
+```bash
+index.html              # The place to put your HTML.
+resources/style.css     # The place to put your CSS.
+resources/roundel.png   # The example image to use as the item image.
+```
 
 [Start coding on codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise-html-css) or use the [Node.js based localhost setup](#localhost).
 
