@@ -1,6 +1,8 @@
 # Paf Frontend
 
-Translate the below design sketches to HTML & CSS. Leverage HTML to introduce meaning to the various elements of the design and CSS to produce the layout provided.
+Translate the design sketches ([small screens](#design-small-screens) & [large screens](#design-large-screens)) into a working prototype with HTML & CSS.
+
+Leverage HTML to introduce meaning to the various elements of the design and CSS to produce the layout provided.
 
 You are allowed to make adjustments to the layout if needed to support the minimum required screen widths ranging between 320-1920px.
 
