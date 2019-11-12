@@ -13,6 +13,8 @@ You are allowed to make adjustments to the layout if needed to support the minim
 - **src/style.css** - The place for your CSS.
 - **src/roundel.png** - The example image to use as the item image.
 
+[Start a new codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise-html-css)
+
 <br id="design-small-screens">
 
 ## Design sketch - Small screens
