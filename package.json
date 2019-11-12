@@ -1,21 +1,13 @@
 {
-  "name": "paf-frontend-html",
+  "name": "paf-frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": "Johan Westling",
+  "license": "ISC",
+  "main": "src/index.html",
   "scripts": {
     "start": "serve src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johanwestling/paf-frontend-html.git"
-  },
-  "author": "Johan Westling",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johanwestling/paf-frontend-html/issues"
-  },
-  "homepage": "https://github.com/johanwestling/paf-frontend-html#readme",
   "dependencies": {
     "serve": "^11.2.0"
   }
