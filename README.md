@@ -4,10 +4,9 @@ Translate the provided [designs (for small & large viewports)](#designs) into a 
 
 ## Requirements
 
-- Use HTML introduces meaning to the elements.
-- Use JavaScript to load JSON-data & render the lists.
-- Layout with support for viewport widths ranging from (at least) 320-1920px.
-- Works in modern browsers.
+- Introduce meaning to the various elements.
+- Load the JSON-data and use it to render the lists.
+- Solution works in modern browsers and viewport-widths ranging from 320-1920px.
 
 _You are allowed to make adjustments to the design/layout if needed._
 
@@ -45,7 +44,7 @@ The JSON-data is requested from the following url:
 
 Start coding directly on [codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise) or use the provided localhost setup to develop your solution.
 
-_**Note:** You'll nee to have **Git** & **Node.js** v10 (or higher) installed for the provided localhost setup._
+_**Note:** You'll need **Git** and **Node.js** v10 (or higher) installed for the provided localhost setup to function._
 
 ```bash
 # Clone paf-frontend-exercise.
