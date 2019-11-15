@@ -13,7 +13,7 @@ _You are allowed to make adjustments to the design/layout if needed._
 ## File structure
 
 ```bash
-src/index.html      # The place to author your HTML.
+index.html          # The place to author your HTML.
 src/styles.css      # The place to author your CSS.
 src/scripts.js      # The place to author your JavaScript.
 dist/data.js        # The JSON-data to load & use in your JavaScript.
