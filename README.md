@@ -27,10 +27,6 @@ The JSON-data is requested from the following url:
 ./data.json
 ```
 
-<br>
-
----
-
 <br id="designs">
 
 ## Designs
@@ -42,10 +38,6 @@ The JSON-data is requested from the following url:
 ### Large viewports
 
 ![Large viewports](./design/large-viewports.png)
-
-<br>
-
----
 
 <br id="development-setup">
 
