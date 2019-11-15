@@ -1,3 +1,5 @@
 .cache/
-dist/
+dist/*
+!dist/data.json
+!dist/roundel-*.png
 node_modules/
