@@ -1,22 +1,28 @@
-# Paf Frontend Exercise HTML & CSS
+# Paf frontend exercise
 
-Translate the design sketches ([small screens](#design-small-screens) & [large screens](#design-large-screens)) into a working prototype with HTML & CSS.
+Translate the designs ([small screens](#design-small-screens) & [large screens](#design-large-screens)) into a working prototype with HTML, CSS and JavaScript.
 
-Leverage HTML to introduce meaning to the various elements of the design and CSS to produce the layout provided.
+### Requirements
 
-You are allowed to make adjustments to the layout if needed to support the minimum required screen widths starting from 320-1920 px.
+- Use HTML introduces meaning to the elements.
+- Use JavaScript to fetch data & render the lists.
+- Layout with support for viewport widths ranging from (at least) 320-1920px.
+- Works in modern browsers.
+
+You are allowed to make adjustments to the design/layout if needed.
+
+Start coding on [codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise-html-css) or use the provided [localhost setup](#localhost).
+
 
 <br id="file-structure">
 
 ## File structure
 
 ```bash
-index.html              # The place to put your HTML.
-resources/style.css     # The place to put your CSS.
-resources/roundel.png   # The example image to use as the item image.
+src/index.html      # The place to author your HTML.
+src/styles.css      # The place to author your CSS.
+src/scripts.js      # The place to author your JavaScript.
 ```
-
-[Start coding on codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise-html-css) or use the [Node.js based localhost setup](#localhost).
 
 <br id="design-small-screens">
 
@@ -34,8 +40,6 @@ resources/roundel.png   # The example image to use as the item image.
 
 ## Localhost
 
-The provided localhost setup requires Git & Node.js to be installed.
-
 ```bash
 # Clone paf-frontend-exercise-html-css.
 git clone https://github.com/johanwestling/paf-frontend-exercise-html-css.git
@@ -46,3 +50,5 @@ cd paf-frontend-exercise-html-css
 # Start the localhost server.
 npm start
 ```
+
+You'll nee to have **Git** & **Node.js** v10 (or higher) installed for the provided localhost setup to run.
