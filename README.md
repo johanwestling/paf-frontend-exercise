@@ -42,7 +42,7 @@ The JSON-data is requested from the following url:
 
 ## Development setup
 
-Start coding directly on [codesandbox.io](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise) or use the provided localhost setup to develop your solution.
+Work on your solution in a [codesandbox](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark) or use the provided localhost setup.
 
 _**Note:** You'll need **Git** and **Node.js** v10 (or higher) installed for the provided localhost setup to function._
 
