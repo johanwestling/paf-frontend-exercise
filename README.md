@@ -4,27 +4,62 @@ Translate the provided [designs (for small & large viewports)](#designs) into a 
 
 ## Requirements
 
-- Introduce meaning to the various elements.
-- Load the JSON-data and use it to render the lists.
-- Solution works in modern browsers and viewport-widths ranging from 320-1920px.
+1. Use HTML5 to produce a semantic information structure based on the designs.
+1. Use JavaScript (client-side) to fetch JSON-data from the following url: ```/api/games/lists.json```.
+1. Use JavaScript (client-side) to generate the HTML based on the fetched JSON-data.
+1. Use CSS to producing the layout with a mobile first approach (minimum requirement is to support screen resolutions from 320px up to 1920px).
 
-_You are allowed to make adjustments to the design/layout if needed._
+_You are allowed to make minor adjustments to the layout if needed._
 
-## File structure
+<br id="development-setup">
+
+## Getting started
+
+**Author your solution in the following files:**
 
 ```bash
 index.html          # The place to author your HTML.
 src/styles.css      # The place to author your CSS.
 src/scripts.js      # The place to author your JavaScript.
-dist/data.js        # The JSON-data to load & use in your JavaScript.
 ```
 
-## Loading data
+**To be able to fetch the JSON-data from the url ```/api/games/lists.json``` you should use one of the following development setups:**
 
-The JSON-data is requested from the following url:
-```
-./data.json
-```
+* [Localhost](#setup-localhost)
+* [Codesandbox](#setup-codesandbox)
+
+<br id="setup-localhost">
+
+## Localhost
+
+The localhost setup provides a development server and JavaScript bundling etc in your machine. Prerequisite for the setup is git & node.js v10+.
+
+1. Clone repository & install setup:
+    ```bash
+    git clone https://github.com/johanwestling/paf-frontend-exercise.git && cd paf-frontend-exercise
+    ```
+1. Install dependencies:
+    ```bash
+    npm install
+    ```
+1. Start server:
+    ```bash
+    npm start
+    ```
+1. When done, package your solution with the following command:
+    ```bash
+    npm pack
+    ```
+1. And then send us your ```paf-frontend-exercise-1.0.0.tgz```.
+
+<br id="setup-codesandbox">
+
+## Codesandbox
+
+The web-based setup that can be used if you're using a shared computer or don't want to spend time installing the localhost setup on your machine.
+
+1. [Open a new Codesandbox](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
+1. When done, send us your Codesandbox-link.
 
 <br id="designs">
 
@@ -37,23 +72,3 @@ The JSON-data is requested from the following url:
 ### Large viewports
 
 ![Large viewports](./design/large-viewports.png)
-
-<br id="development-setup">
-
-## Development setup
-
-Work on your solution in a [codesandbox](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark) or use the provided localhost setup.
-
-_**Note:** You'll need **Git** and **Node.js** v10 (or higher) installed for the provided localhost setup to function._
-
-```bash
-# Clone paf-frontend-exercise.
-git clone https://github.com/johanwestling/paf-frontend-exercise.git
-
-# Change directory to where you cloned paf-frontend-exercise.
-cd paf-frontend-exercise
-
-# Start the localhost server.
-npm start
-```
-

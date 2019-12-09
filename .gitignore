@@ -1,6 +1,7 @@
 .cache/
 dist/*
-!dist/data.json
-!dist/roundel-*.png
+!dist/api/
+!dist/resources/
 node_modules/
 design/paf-frontend-design.xd
+*.tgz
