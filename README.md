@@ -32,7 +32,7 @@ src/scripts.js      # The place to author your JavaScript.
 
 ## Localhost
 
-The localhost setup provides a development server and JavaScript bundling etc in your machine. Prerequisite for the setup is git & node.js v10+.
+This setup provides a development server to be used in your machine. Prerequisites are **git** and **node.js** _(v10 or higher)_.
 
 1. Clone repository & install setup:
     ```bash
@@ -56,7 +56,7 @@ The localhost setup provides a development server and JavaScript bundling etc in
 
 ## Codesandbox
 
-The web-based setup that can be used if you're using a shared computer or don't want to spend time installing the localhost setup on your machine.
+This is the web based setup that only requires a modern browser to get you started.
 
 1. [Open a new Codesandbox](https://codesandbox.io/s/github/johanwestling/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
 1. When done, send us your Codesandbox-link.
